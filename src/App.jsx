@@ -12,11 +12,9 @@ function App() {
     const width = window.innerWidth
     const height = window.innerHeight
 
-    // Calcular la nueva posición del gradiente basado en la posición del ratón
     const xPercent = (clientX / width) * 100
     const yPercent = (clientY / height) * 100
 
-    // Modificar el gradiente basado en la posición del ratón
     const newGradient = `radial-gradient(circle at ${xPercent}% ${yPercent}%,rgb(132, 189, 207),rgb(240, 240, 240))`
     setGradient(newGradient)
   }
