@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 function App() {
   const [gradient, setGradient] = useState(
-    'linear-gradient(to right, #add8e6, #d3d3d3)'
+    'linear-gradient(to right,rgb(132, 189, 207),rgb(240, 240, 240))'
   )
 
   const handleMouseMove = (event) => {
@@ -31,6 +31,30 @@ function App() {
             src={dani}
             alt="foto de medio cuerpo de daniel"
           />
+        </div>
+        <div>
+          <h2>Sobre mí:</h2>
+          <p>
+            {' '}
+            Soy animador de personajes, gran apasionado de la animación y con
+            muy buena actitud. Siempre estando al día en mi formación, lo último
+            que he realizado ha sido un curso en Animworkshop, dónde realicé
+            planos de animación 3d enfocados en la fiscalidad de los personajes
+            y profundicé aún más mis conocimientos de Autodesk Maya. Me encanta
+            la animación y el dibujo por su característica de transmitir
+            historias. Tengo una sólida base en materia audiovisual, ilustración
+            y principios de la animación. Antes de comenzar en la animación hice
+            mis trabajos como ilustrador y diseño de personajes en un videojuego
+            “Wardians” Después de realizar el máster en la U-tad de animación,
+            trabajé en un largometraje “Buffalo Kids” y un corto “Bright” que
+            salió ganador como el más votado de la Company Day. Mi aptitud me
+            ayudó a integrarme perfectamente en el flujo de trabajo de los
+            estudios y esta experiencia me ha servido para consolidarme en mi
+            trabajo. Estoy entusiasmado por seguir creciendo profesionalmente en
+            este apartado y aportar mi creatividad y energía al equipo y se
+            transmita al resultado final de la producción. Si te interesa
+            conocer más estaré encantado de conectar contigo{' '}
+          </p>
         </div>
       </div>
     </>
