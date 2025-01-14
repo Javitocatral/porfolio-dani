@@ -159,3 +159,23 @@ nav h4 a:hover {
   font-size: 20px;
   font-weight: 500;
 }
+.nombre p {
+  font-size: 50px;
+  font-weight: 300;
+}
+.video-container {
+  margin: 25px 150px;
+  position: relative;
+  padding-bottom: 37%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 25px;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

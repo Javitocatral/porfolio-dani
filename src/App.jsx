@@ -36,6 +36,14 @@ function App() {
             <a href="#contacto">Contacto</a>
           </h4>
         </nav>
+        <div class="video-container">
+          <iframe
+            src="https://player.vimeo.com/video/1045323530"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <div className="foto">
           <img
             style={{ width: '500px' }}
@@ -43,7 +51,8 @@ function App() {
             alt="foto de medio cuerpo de daniel"
           />
           <div className="nombre">
-            <h1>Daniel Sal Aparicio</h1>
+            <p>Hola, soy</p>
+            <h1>Daniel Sal Aparicio!</h1>
             <h2>Animador de personajes</h2>
           </div>
         </div>
@@ -52,26 +61,45 @@ function App() {
           <p>
             Soy animador de personajes, gran apasionado de la animación y con
             muy buena actitud. Siempre estando al día en mi formación, lo último
-            que he realizado ha sido un curso en Animworkshop, dónde realicé
-            planos de animación 3d enfocados en la fiscalidad de los personajes
-            y profundicé aún más mis conocimientos de Autodesk Maya.
+            que he realizado ha sido un curso en <strong>Animworkshop</strong>,
+            dónde realicé planos de animación 3D enfocados en la fisicalidad de
+            los personajes y profundicé aún más mis conocimientos de{' '}
+            <strong>Autodesk Maya</strong> .
             <br />
             Me encanta la animación y el dibujo por su característica de
             transmitir historias. Tengo una sólida base en materia audiovisual,
             ilustración y principios de la animación.
             <br /> Antes de comenzar en la animación hice mis trabajos como
-            ilustrador y diseño de personajes en un videojuego “Wardians”.
+            ilustrador y diseño de personajes en un videojuego{' '}
+            <strong>“Wardians”</strong>.
             <br />
-            Después de realizar el máster en la U-tad de animación, trabajé en
-            un largometraje “Buffalo Kids” y un corto “Bright” que salió ganador
-            como el más votado de la Company Day. Mi aptitud me ayudó a
-            integrarme perfectamente en el flujo de trabajo de los estudios y
-            esta experiencia me ha servido para consolidarme en mi trabajo.
+            Realicé el <strong>máster en animación en la U-tad</strong> y,
+            posteriormente, trabajé en el largometraje{' '}
+            <strong>"Buffalo Kids"</strong> y en el corto{' '}
+            <strong>"Bright"</strong>, el cual resultó ganador como el más
+            votado en la Company Day. Mi aptitud me ayudó a integrarme
+            perfectamente en el flujo de trabajo de los estudios, y esta
+            experiencia me ha servido para consolidarme en mi carrera
+            profesional.
             <br /> Estoy entusiasmado por seguir creciendo profesionalmente en
             este apartado y aportar mi creatividad y energía al equipo y se
             transmita al resultado final de la producción. Si te interesa
             conocer más estaré encantado de conectar contigo.
           </p>
+          <div>
+            <div>
+              <img src="" alt="" />
+              <a href=""></a>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <a href=""></a>
+            </div>
+          </div>
+          <div>
+            <button>descargar CV</button>
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </>
