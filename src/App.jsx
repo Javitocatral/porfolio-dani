@@ -101,7 +101,14 @@ function App() {
             </div>
           </div>
           <div>
-            <button>descargar CV</button>
+            <button className="boton">
+              <img
+                style={{ width: '20px' }}
+                src={descargas}
+                alt="icono desscargas"
+              />
+              Descargar CV
+            </button>
             <img src="" alt="" />
           </div>
         </div>
