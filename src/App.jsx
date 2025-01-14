@@ -56,7 +56,7 @@ function App() {
             <h2>Animador de personajes</h2>
           </div>
         </div>
-        <div className="sobremi">
+        <div id="sobremi" className="sobremi">
           <h2>Sobre mí:</h2>
           <p>
             Soy animador de personajes, gran apasionado de la animación y con
@@ -100,6 +100,9 @@ function App() {
             <button>descargar CV</button>
             <img src="" alt="" />
           </div>
+        </div>
+        <div id="proyectos" className="proyectos">
+          <h2>Proyectos</h2>
         </div>
       </div>
     </>
