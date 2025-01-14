@@ -7,3 +7,29 @@
   align-items: center;
   transition: background 0.5s ease;
 }
+.foto {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.sobremi {
+  background-color: white;
+  padding: 20px;
+  margin: 50px 150px;
+  border-radius: 25px;
+}
+.sobremi h2 {
+  font-size: 50px;
+  margin: 0;
+}
+.sobremi p {
+  font-size: 20px;
+  font-weight: 500;
+}

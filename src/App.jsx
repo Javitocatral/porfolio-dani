@@ -25,14 +25,18 @@ function App() {
         onMouseMove={handleMouseMove}
         style={{ background: gradient }}
       >
-        <div>
+        <div className="foto">
           <img
             style={{ width: '500px' }}
             src={dani}
             alt="foto de medio cuerpo de daniel"
           />
+          <div className="nombre">
+            <h1>Daniel Sal Aparicio</h1>
+            <h2>Animador de personajes</h2>
+          </div>
         </div>
-        <div>
+        <div className="sobremi">
           <h2>Sobre mí:</h2>
           <p>
             Soy animador de personajes, gran apasionado de la animación y con
