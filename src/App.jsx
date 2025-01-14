@@ -25,6 +25,17 @@ function App() {
         onMouseMove={handleMouseMove}
         style={{ background: gradient }}
       >
+        <nav>
+          <h4>
+            <a href="#sobremi">Sobre mí</a>
+          </h4>
+          <h4>
+            <a href="#proyectos">Proyectos</a>
+          </h4>
+          <h4>
+            <a href="#contacto">Contacto</a>
+          </h4>
+        </nav>
         <div className="foto">
           <img
             style={{ width: '500px' }}
