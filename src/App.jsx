@@ -1,6 +1,10 @@
 import dani from './assets/dani.png'
 import './App.css'
 import { useState } from 'react'
+import carta from './assets/carta.png'
+import linkedin from './assets/linkedin.png'
+import descargas from './assets/descargas.png'
+import telefono from './assets/telefono.png'
 
 function App() {
   const [gradient, setGradient] = useState(
