@@ -5,6 +5,7 @@ import carta from './assets/carta.png'
 import linkedin from './assets/linkedin.png'
 import descargas from './assets/descargas.png'
 import telefono from './assets/telefono.png'
+import bufalo from './assets/bufalo.jpg'
 
 function App() {
   const [gradient, setGradient] = useState(
@@ -74,7 +75,7 @@ function App() {
             transmitir historias. Tengo una sólida base en materia audiovisual,
             ilustración y principios de la animación.
             <br /> Antes de comenzar en la animación hice mis trabajos como
-            ilustrador y diseño de personajes en un videojuego{' '}
+            ilustrador y diseño de personajes en un videojuego
             <strong>“Wardians”</strong>.
             <br />
             Realicé el <strong>máster en animación en la U-tad</strong> y,
@@ -93,6 +94,9 @@ function App() {
         </div>
         <div id="proyectos" className="proyectos">
           <h2>Proyectos</h2>
+          <div>
+            <img src={bufalo} alt="" />
+          </div>
         </div>
         <div id="contacto" className="proyectos">
           <h2>Contacto</h2>
