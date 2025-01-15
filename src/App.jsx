@@ -90,30 +90,54 @@ function App() {
             transmita al resultado final de la producción. Si te interesa
             conocer más estaré encantado de conectar contigo.
           </p>
-          <div>
-            <div>
-              <img src="" alt="" />
-              <a href=""></a>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <a href=""></a>
-            </div>
-          </div>
-          <div>
-            <button className="boton">
-              <img
-                style={{ width: '20px' }}
-                src={descargas}
-                alt="icono desscargas"
-              />
-              Descargar CV
-            </button>
-            <img src="" alt="" />
-          </div>
         </div>
         <div id="proyectos" className="proyectos">
           <h2>Proyectos</h2>
+        </div>
+        <div id="contacto" className="proyectos">
+          <h2>Contacto</h2>
+          <div className="contacto">
+            <a className="boton boton-descargas" href="#descargas">
+              <img
+                style={{ width: '20px' }}
+                src={descargas}
+                alt="icono descargas"
+              />
+              Descargar CV
+            </a>
+            <div>
+              <a className="boton boton-telefono" href="tel:76767676">
+                <img
+                  style={{ width: '25px' }}
+                  src={telefono}
+                  alt="icono telefono"
+                />{' '}
+                76767676
+              </a>
+            </div>
+            <div>
+              <a
+                className="boton boton-carta"
+                href="mailto:danielsalaparicio@gmail.com"
+              >
+                <img style={{ width: '25px' }} src={carta} alt="icono carta" />{' '}
+                danielsalaparicio@gmail.com
+              </a>
+            </div>
+            <div>
+              <a
+                className="boton boton-linkedin"
+                href="https://www.linkedin.com/in/danielsalaparicio/"
+              >
+                <img
+                  style={{ width: '25px' }}
+                  src={linkedin}
+                  alt="icono linkedin"
+                />{' '}
+                Linkedin
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

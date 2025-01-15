@@ -180,23 +180,69 @@ nav h4 a:hover {
   height: 100%;
 }
 .proyectos {
-  background-color: white;
-  width: 83%;
+  background-color: white; /* Asegura que el fondo sea visible */
+  width: 83%; /* Ajusta el ancho relativo */
   padding: 20px;
-  margin: 50px 150px;
+  margin: 50px auto; /* Centra horizontalmente */
   border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra para mayor contraste */
+  box-sizing: border-box; /* Incluye el padding y borde en el tamaño total */
 }
+
+.contacto {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+}
+
 .boton {
   display: flex;
-  justify-content: 'center';
-  gap: 10px;
-  align-items: center;
-  background-color: rgb(132, 189, 207);
+  justify-content: center;
   border-radius: 10px;
   padding: 10px;
-  transition: background-color 0.5s ease, scale 0.5s ease;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+  width: 100%;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
 }
+
+.boton img {
+  max-width: 25px;
+  margin-right: 10px;
+}
+
 .boton:hover {
-  background-color: rgb(191, 217, 225);
-  scale: 1.05;
+  transform: scale(1.05);
+}
+
+.boton-descargas {
+  background-color: #588cb6;
+}
+
+.boton-telefono {
+  background-color: #729dc3;
+}
+
+.boton-carta {
+  background-color: #8daed0;
+}
+
+.boton-linkedin {
+  background-color: #a8bfdd;
+}
+
+.boton-descargas:hover,
+.boton-telefono:hover,
+.boton-carta:hover,
+.boton-linkedin:hover {
+  background-color: #c3d0ea;
 }
