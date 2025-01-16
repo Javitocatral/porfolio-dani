@@ -110,19 +110,19 @@ function App() {
               Descargar CV
             </a>
             <div>
-              <a className="boton boton-telefono" href="tel:76767676">
+              <a className="boton boton-telefono" href="tel:661075099">
                 <img
                   style={{ width: '25px' }}
                   src={telefono}
                   alt="icono telefono"
                 />{' '}
-                76767676
+                661075099
               </a>
             </div>
             <div>
               <a
                 className="boton boton-carta"
-                href="mailto:danielsalaparicio@gmail.com"
+                href="mailto:daniel.sal.apa@gmail.com"
               >
                 <img style={{ width: '25px' }} src={carta} alt="icono carta" />{' '}
                 danielsalaparicio@gmail.com
@@ -131,7 +131,7 @@ function App() {
             <div>
               <a
                 className="boton boton-linkedin"
-                href="https://www.linkedin.com/in/danielsalaparicio/"
+                href="https://www.linkedin.com/in/daniel-sal-aparicio-70b24255/"
               >
                 <img
                   style={{ width: '25px' }}
