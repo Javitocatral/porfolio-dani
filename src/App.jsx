@@ -6,6 +6,7 @@ import linkedin from './assets/linkedin.png'
 import descargas from './assets/descargas.png'
 import telefono from './assets/telefono.png'
 import bufalo from './assets/bufalo.jpg'
+import bright from './assets/bright.png'
 
 function App() {
   const [gradient, setGradient] = useState(
@@ -99,11 +100,18 @@ function App() {
           <div>
             <img src={bufalo} alt="" />
           </div>
+          <div>
+            <img src={bright} alt="" />
+          </div>
         </div>
         <div id="contacto" className="proyectos">
           <h2>Contacto</h2>
           <div className="contacto">
-            <a className="boton boton-descargas" href="#descargas">
+            <a
+              className="boton boton-descargas"
+              href="cv-daniel-2025.pdf"
+              download
+            >
               <img
                 style={{ width: '20px' }}
                 src={descargas}
