@@ -61,36 +61,38 @@ function App() {
             <h2>Animador de personajes</h2>
           </div>
         </div>
-        <div id="sobremi" className="sobremi">
-          <h2>Sobre mí:</h2>
-          <p>
-            Soy animador de personajes, gran apasionado de la animación y con
-            muy buena actitud. Siempre estando al día en mi formación, lo último
-            que he realizado ha sido un curso en <strong>Animworkshop</strong>,
-            dónde realicé planos de animación 3D enfocados en la fisicalidad de
-            los personajes y profundicé aún más mis conocimientos de{' '}
-            <strong>Autodesk Maya</strong> .
-            <br />
-            Me encanta la animación y el dibujo por su característica de
-            transmitir historias. Tengo una sólida base en materia audiovisual,
-            ilustración y principios de la animación.
-            <br /> Antes de comenzar en la animación hice mis trabajos como
-            ilustrador y diseño de personajes en un videojuego
-            <strong>“Wardians”</strong>.
-            <br />
-            Realicé el <strong>máster en animación en la U-tad</strong> y,
-            posteriormente, trabajé en el largometraje{' '}
-            <strong>"Buffalo Kids"</strong> y en el corto{' '}
-            <strong>"Bright"</strong>, el cual resultó ganador como el más
-            votado en la Company Day. Mi aptitud me ayudó a integrarme
-            perfectamente en el flujo de trabajo de los estudios, y esta
-            experiencia me ha servido para consolidarme en mi carrera
-            profesional.
-            <br /> Estoy entusiasmado por seguir creciendo profesionalmente en
-            este apartado y aportar mi creatividad y energía al equipo y se
-            transmita al resultado final de la producción. Si te interesa
-            conocer más estaré encantado de conectar contigo.
-          </p>
+        <div id="sobremi" style={{ height: '100vh' }}>
+          <div className="sobremi">
+            <h2>Sobre mí:</h2>
+            <p>
+              Soy animador de personajes, gran apasionado de la animación y con
+              muy buena actitud. Siempre estando al día en mi formación, lo
+              último que he realizado ha sido un curso en{' '}
+              <strong>Animworkshop</strong>, dónde realicé planos de animación
+              3D enfocados en la fisicalidad de los personajes y profundicé aún
+              más mis conocimientos de <strong>Autodesk Maya</strong> .
+              <br />
+              Me encanta la animación y el dibujo por su característica de
+              transmitir historias. Tengo una sólida base en materia
+              audiovisual, ilustración y principios de la animación.
+              <br /> Antes de comenzar en la animación hice mis trabajos como
+              ilustrador y diseño de personajes en un videojuego
+              <strong>“Wardians”</strong>.
+              <br />
+              Realicé el <strong>máster en animación en la U-tad</strong> y,
+              posteriormente, trabajé en el largometraje{' '}
+              <strong>"Buffalo Kids"</strong> y en el corto{' '}
+              <strong>"Bright"</strong>, el cual resultó ganador como el más
+              votado en la Company Day. Mi aptitud me ayudó a integrarme
+              perfectamente en el flujo de trabajo de los estudios, y esta
+              experiencia me ha servido para consolidarme en mi carrera
+              profesional.
+              <br /> Estoy entusiasmado por seguir creciendo profesionalmente en
+              este apartado y aportar mi creatividad y energía al equipo y se
+              transmita al resultado final de la producción. Si te interesa
+              conocer más estaré encantado de conectar contigo.
+            </p>
+          </div>
         </div>
         <div id="proyectos" className="proyectos">
           <h2>Proyectos</h2>

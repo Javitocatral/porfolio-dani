@@ -128,6 +128,7 @@ nav h4 a:hover {
 }
 
 .foto {
+  height: 100vh;
   margin: 25px;
   display: flex;
   justify-content: center;
@@ -147,7 +148,7 @@ nav h4 a:hover {
 }
 .sobremi {
   background-color: white;
-  padding: 20px;
+  padding: 70px;
   margin: 50px 150px;
   border-radius: 25px;
 }
@@ -159,6 +160,7 @@ nav h4 a:hover {
   font-size: 20px;
   font-weight: 500;
 }
+
 .nombre p {
   font-size: 50px;
   font-weight: 300;
@@ -169,7 +171,7 @@ nav h4 a:hover {
   padding-bottom: 37%;
   height: 0;
   overflow: hidden;
-  width: 100%;
+  width: 66%;
   border-radius: 25px;
 }
 .video-container iframe {
