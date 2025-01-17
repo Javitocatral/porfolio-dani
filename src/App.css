@@ -99,8 +99,11 @@ nav {
   justify-content: flex-end;
   flex-direction: row;
   gap: 30px;
-  padding: 50px 50px 0;
+  padding: 20px 50px;
   width: 100%;
+  box-shadow: 0 4px 6px -1px rgba(37, 37, 58, 0.7),
+    0 2px 4px -1px rgba(37, 37, 58, 0.06);
+  border-radius: 25px;
 }
 
 nav h4 a {
@@ -116,6 +119,8 @@ nav h4 a:hover {
   color: rgb(7, 112, 126);
   padding: 10px;
   border-radius: 25px;
+  box-shadow: 0 4px 6px -1px rgba(37, 37, 58, 0.7),
+    0 2px 4px -1px rgba(37, 37, 58, 0.06);
 }
 .container {
   width: 100%;
@@ -128,7 +133,7 @@ nav h4 a:hover {
 }
 
 .foto {
-  height: 100vh;
+  height: 72vh;
   margin: 25px;
   display: flex;
   justify-content: center;
@@ -172,7 +177,7 @@ nav h4 a:hover {
   height: 0;
   overflow: hidden;
   width: 66%;
-  border-radius: 25px;
+  height: 100vh;
 }
 .video-container iframe {
   position: absolute;
@@ -182,15 +187,51 @@ nav h4 a:hover {
   height: 100%;
 }
 .proyectos {
-  background-color: white; /* Asegura que el fondo sea visible */
-  width: 83%; /* Ajusta el ancho relativo */
+  margin: 80px 150px;
   padding: 20px;
-  margin: 50px auto; /* Centra horizontalmente */
-  border-radius: 25px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra para mayor contraste */
-  box-sizing: border-box; /* Incluye el padding y borde en el tamaño total */
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
+.proyectos h2 {
+  margin-bottom: 20px;
+}
+
+.proyecto {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.proyecto img {
+  max-width: 500px; /* Ajusta el tamaño máximo de las imágenes */
+  width: 100%; /* Asegura que las imágenes ocupen el 100% del ancho disponible */
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px; /* Espacio entre la imagen y la información del proyecto */
+}
+
+.proyecto-info h2 {
+  margin: 0 0 10px 0;
+}
+
+.proyecto-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.proyecto-info li {
+  margin-bottom: 10px;
+}
 .contacto {
   margin: 0 auto;
   display: flex;
@@ -209,7 +250,8 @@ nav h4 a:hover {
   justify-content: center;
   border-radius: 10px;
   padding: 10px;
-  transition: background-color 0.5s ease, transform 0.5s ease;
+  transition: background-color 0.5s ease, transform 0.5s ease,
+    box-shadow 0.5s ease;
   width: 100%;
   text-decoration: none;
   box-sizing: border-box;
@@ -224,6 +266,8 @@ nav h4 a:hover {
 
 .boton:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 6px -1px rgba(37, 37, 58, 0.7),
+    0 2px 4px -1px rgba(37, 37, 58, 0.06);
 }
 
 .boton-descargas {

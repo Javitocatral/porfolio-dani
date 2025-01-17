@@ -33,6 +33,9 @@ function App() {
       >
         <nav>
           <h4>
+            <a href="#presentacion">Presentación</a>
+          </h4>
+          <h4>
             <a href="#sobremi">Sobre mí</a>
           </h4>
           <h4>
@@ -42,14 +45,6 @@ function App() {
             <a href="#contacto">Contacto</a>
           </h4>
         </nav>
-        <div class="video-container">
-          <iframe
-            src="https://player.vimeo.com/video/1045323530"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
         <div className="foto">
           <img
             style={{ width: '500px' }}
@@ -61,6 +56,14 @@ function App() {
             <h1>Daniel Sal Aparicio!</h1>
             <h2>Animador de personajes</h2>
           </div>
+        </div>
+        <div id="presentacion" class="video-container">
+          <iframe
+            src="https://player.vimeo.com/video/1045323530"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
         <div id="sobremi" style={{ height: '100vh' }}>
           <div className="sobremi">
@@ -96,32 +99,36 @@ function App() {
           </div>
         </div>
         <div id="proyectos" className="proyectos">
-          <h2>Proyectos</h2>
-          <div>
-            <img src={bufalo} alt="" />
-            <h2>BUFFALO KIDS. CORE ANIMATION – WB feature animation</h2>
-            <ul>
-              <li>
-                CFX character animation y animador 3d. Realización de animación
-                secundaria de los personajes como pelo, ropa y accesorios.
-                Animador de personajes en algún plano.{' '}
-              </li>
-              <li>Autodesk MAYA + Ragdoll dynamics </li>
-            </ul>
+          <h2 style={{ fontSize: '50px' }}>Proyectos</h2>
+          <div className="proyecto">
+            <img src={bufalo} alt="Bufalo Kids" />
+            <div className="proyecto-info">
+              <h2>BUFFALO KIDS. CORE ANIMATION – WB feature animation</h2>
+              <ul>
+                <li>
+                  CFX character animation y animador 3d. Realización de
+                  animación secundaria de los personajes como pelo, ropa y
+                  accesorios. Animador de personajes en algún plano.
+                </li>
+                <li>Autodesk MAYA + Ragdoll dynamics</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <img src={bright} alt="" />
-            <h2>BRIGHT. U-tad – shortfilm</h2>
-            <ul>
-              <li>
-                Animador 3d. Animación de los personajes en varios planos{' '}
-              </li>
-              <li>Autodesk MAYA </li>
-            </ul>
+          <div className="proyecto">
+            <img src={bright} alt="Bright" />
+            <div className="proyecto-info">
+              <h2>BRIGHT. U-tad – shortfilm</h2>
+              <ul>
+                <li>
+                  Animador 3d. Animación de los personajes en varios planos
+                </li>
+                <li>Autodesk MAYA</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div id="contacto" className="proyectos">
-          <h2>Contacto</h2>
+          <h2 style={{ fontSize: '50px' }}>Contacto</h2>
           <div className="contacto">
             <a
               className="boton boton-descargas"
