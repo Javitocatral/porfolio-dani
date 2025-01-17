@@ -128,7 +128,9 @@ function App() {
           </div>
         </div>
         <div id="contacto" className="proyectos">
-          <h2 style={{ fontSize: '50px' }}>Contacto</h2>
+          <h2 style={{ fontSize: '50px' }} ç>
+            Contacto
+          </h2>
           <div className="contacto">
             <a
               className="boton boton-descargas"
