@@ -99,9 +99,25 @@ function App() {
           <h2>Proyectos</h2>
           <div>
             <img src={bufalo} alt="" />
+            <h2>BUFFALO KIDS. CORE ANIMATION – WB feature animation</h2>
+            <ul>
+              <li>
+                CFX character animation y animador 3d. Realización de animación
+                secundaria de los personajes como pelo, ropa y accesorios.
+                Animador de personajes en algún plano.{' '}
+              </li>
+              <li>Autodesk MAYA + Ragdoll dynamics </li>
+            </ul>
           </div>
           <div>
             <img src={bright} alt="" />
+            <h2>BRIGHT. U-tad – shortfilm</h2>
+            <ul>
+              <li>
+                Animador 3d. Animación de los personajes en varios planos{' '}
+              </li>
+              <li>Autodesk MAYA </li>
+            </ul>
           </div>
         </div>
         <div id="contacto" className="proyectos">
