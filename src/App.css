@@ -101,8 +101,8 @@ nav {
   gap: 30px;
   padding: 20px 50px;
   width: 100%;
-  box-shadow: 0 4px 6px -1px rgba(37, 37, 58, 0.7),
-    0 2px 4px -1px rgba(37, 37, 58, 0.06);
+  box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
+    0 1px 2px -1px rgba(37, 37, 58, 0.03);
   border-radius-botton: 10px;
   background-color: white;
 }
@@ -111,7 +111,8 @@ nav h4 a {
   font-weight: 700;
   font-size: 25px;
   color: inherit;
-  transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease,
+    box-shadow 0.5s ease;
   border-radius: 25px;
 }
 
@@ -120,8 +121,8 @@ nav h4 a:hover {
   color: rgb(7, 112, 126);
   padding: 10px;
   border-radius: 25px;
-  box-shadow: 0 4px 6px -1px rgba(37, 37, 58, 0.7),
-    0 2px 4px -1px rgba(37, 37, 58, 0.06);
+  box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
+    0 1px 2px -1px rgba(37, 37, 58, 0.03);
 }
 .container {
   width: 100%;
@@ -145,6 +146,8 @@ nav h4 a:hover {
   width: 200px;
   height: 500px;
   border-radius: 50%;
+  box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
+    0 1px 2px -1px rgba(37, 37, 58, 0.03);
 }
 .foto h1 {
   font-size: 70px;
@@ -213,11 +216,13 @@ nav h4 a:hover {
 }
 
 .proyecto img {
-  max-width: 500px; /* Ajusta el tamaño máximo de las imágenes */
-  width: 100%; /* Asegura que las imágenes ocupen el 100% del ancho disponible */
+  max-width: 500px;
+  width: 100%;
   height: auto;
   border-radius: 10px;
-  margin-right: 20px; /* Espacio entre la imagen y la información del proyecto */
+  margin-right: 20px;
+  box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
+    0 1px 2px -1px rgba(37, 37, 58, 0.03);
 }
 
 .proyecto-info h2 {
@@ -267,8 +272,8 @@ nav h4 a:hover {
 
 .boton:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 6px -1px rgba(37, 37, 58, 0.7),
-    0 2px 4px -1px rgba(37, 37, 58, 0.06);
+  box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
+    0 1px 2px -1px rgba(37, 37, 58, 0.03);
 }
 
 .boton-descargas {
