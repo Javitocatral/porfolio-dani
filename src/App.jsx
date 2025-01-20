@@ -71,7 +71,7 @@ function App() {
             <p>
               Soy animador de personajes, gran apasionado de la animación y con
               muy buena actitud. Siempre estando al día en mi formación, lo
-              último que he realizado ha sido un curso en{' '}
+              último que he realizado ha sido un curso en
               <strong>Animworkshop</strong>, dónde realicé planos de animación
               3D enfocados en la fisicalidad de los personajes y profundicé aún
               más mis conocimientos de <strong>Autodesk Maya</strong> .
@@ -84,8 +84,8 @@ function App() {
               <strong>“Wardians”</strong>.
               <br />
               Realicé el <strong>máster en animación en la U-tad</strong> y,
-              posteriormente, trabajé en el largometraje{' '}
-              <strong>"Buffalo Kids"</strong> y en el corto{' '}
+              posteriormente, trabajé en el largometraje
+              <strong>"Buffalo Kids"</strong> y en el corto
               <strong>"Bright"</strong>, el cual resultó ganador como el más
               votado en la Company Day. Mi aptitud me ayudó a integrarme
               perfectamente en el flujo de trabajo de los estudios, y esta
@@ -150,7 +150,7 @@ function App() {
                   style={{ width: '25px' }}
                   src={telefono}
                   alt="icono telefono"
-                />{' '}
+                />
                 661075099
               </a>
             </div>
@@ -159,7 +159,7 @@ function App() {
                 className="boton boton-carta"
                 href="mailto:daniel.sal.apa@gmail.com"
               >
-                <img style={{ width: '25px' }} src={carta} alt="icono carta" />{' '}
+                <img style={{ width: '25px' }} src={carta} alt="icono carta" />
                 danielsalaparicio@gmail.com
               </a>
             </div>
@@ -172,7 +172,7 @@ function App() {
                   style={{ width: '25px' }}
                   src={linkedin}
                   alt="icono linkedin"
-                />{' '}
+                />
                 Linkedin
               </a>
             </div>
