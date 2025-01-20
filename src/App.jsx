@@ -12,6 +12,11 @@ function App() {
   const [gradient, setGradient] = useState(
     'linear-gradient(to right,rgb(132, 189, 207),rgb(240, 240, 240))'
   )
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
+  }
 
   const handleMouseMove = (event) => {
     const { clientX, clientY } = event
@@ -32,18 +37,23 @@ function App() {
         style={{ background: gradient }}
       >
         <nav>
-          <h4>
-            <a href="#presentacion">Presentación</a>
-          </h4>
-          <h4>
-            <a href="#sobremi">Sobre mí</a>
-          </h4>
-          <h4>
-            <a href="#proyectos">Proyectos</a>
-          </h4>
-          <h4>
-            <a href="#contacto">Contacto</a>
-          </h4>
+          <div className="menu-toggle" onClick={toggleMenu}>
+            &#9776; {/* Icono de hamburguesa */}
+          </div>
+          <div className={`nav-links ${isOpen ? 'show' : ''}`}>
+            <h4>
+              <a href="#presentacion">Reel</a>
+            </h4>
+            <h4>
+              <a href="#sobremi">Sobre mí</a>
+            </h4>
+            <h4>
+              <a href="#proyectos">Proyectos</a>
+            </h4>
+            <h4>
+              <a href="#contacto">Contacto</a>
+            </h4>
+          </div>
         </nav>
         <div className="foto">
           <img

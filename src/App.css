@@ -94,26 +94,42 @@ fieldset {
 th {
   font: inherit;
 }
+
 nav {
   display: flex;
   justify-content: flex-end;
-  flex-direction: row;
-  gap: 30px;
-  padding: 20px 50px;
-  width: 100%;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
   box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
     0 1px 2px -1px rgba(37, 37, 58, 0.03);
-  border-radius-botton: 10px;
-  background-color: white;
+  width: 100%;
 }
 
-nav h4 a {
-  font-weight: 700;
-  font-size: 25px;
-  color: inherit;
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+  overflow: hidden;
+}
+
+.nav-links h4 {
+  margin: 0;
+}
+
+.nav-links a {
   transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease,
     box-shadow 0.5s ease;
   border-radius: 25px;
+
+  font-weight: 700;
+  font-size: 25px;
 }
 
 nav h4 a:hover {
@@ -297,4 +313,143 @@ nav h4 a:hover {
 .boton-carta:hover,
 .boton-linkedin:hover {
   background-color: #c3d0ea;
+}
+@media (max-width: 1200px) {
+  .video-container {
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  }
+
+  .sobremi,
+  .proyectos {
+    margin: 50px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
+      0 1px 2px -1px rgba(37, 37, 58, 0.03);
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .nav-links.show {
+    max-height: 500px; /* Ajusta según el contenido */
+    opacity: 1;
+  }
+
+  .foto {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .foto img {
+    width: 150px;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .foto h1 {
+    font-size: 50px;
+  }
+
+  .foto h2 {
+    font-size: 30px;
+  }
+
+  .video-container {
+    height: 40vh;
+  }
+
+  .sobremi,
+  .proyectos {
+    gap: 10px;
+    height: 93%;
+    margin: 20px 10px;
+    padding: 20px;
+    width: 95%;
+  }
+
+  .sobremi {
+    height: 95%;
+  }
+
+  .sobremi h2 {
+    font-size: 30px;
+  }
+
+  .sobremi p,
+  .proyecto-info h2 {
+    font-size: 18px;
+  }
+
+  .nombre p {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .proyecto {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contacto {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .boton {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  nav h4 a {
+    font-size: 20px;
+  }
+
+  .foto h1 {
+    font-size: 40px;
+  }
+
+  .foto h2 {
+    font-size: 25px;
+  }
+
+  .sobremi h2,
+  .proyectos h2 {
+    font-size: 25px;
+  }
+
+  .sobremi p,
+  .proyecto-info h2 {
+    font-size: 13px;
+  }
+
+  .nombre p {
+    font-size: 25px;
+  }
+
+  .boton img {
+    max-width: 20px;
+  }
+
+  .boton {
+    font-size: 12px;
+  }
 }
