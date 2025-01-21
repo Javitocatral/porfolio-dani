@@ -113,32 +113,30 @@ nav {
 
 .nav-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
-
   overflow: hidden;
-}
-
-.nav-links h4 {
-  margin: 0;
+  height: 60px;
 }
 
 .nav-links a {
   transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease,
     box-shadow 0.5s ease;
-  border-radius: 25px;
-
   font-weight: 700;
   font-size: 25px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 nav h4 a:hover {
   background-color: #f1f1f1;
   color: rgb(7, 112, 126);
-  padding: 10px;
-  border-radius: 25px;
   box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
     0 1px 2px -1px rgba(37, 37, 58, 0.03);
+  padding: 10px;
+  border-radius: 25px;
 }
 .container {
   width: 100%;
@@ -334,6 +332,8 @@ nav h4 a:hover {
   .nav-links {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
     gap: 10px;
     position: absolute;
     top: 60px;
@@ -344,6 +344,7 @@ nav h4 a:hover {
     box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
       0 1px 2px -1px rgba(37, 37, 58, 0.03);
     max-height: 0;
+    height: auto;
     opacity: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
