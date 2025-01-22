@@ -116,9 +116,10 @@ function App() {
               <h2>BUFFALO KIDS. CORE ANIMATION – WB feature animation</h2>
               <ul>
                 <li>
-                  CFX character animation y animador 3d. Realización de
-                  animación secundaria de los personajes como pelo, ropa y
-                  accesorios. Animador de personajes en algún plano.
+                  <strong>CFX character animation y animador 3d</strong> .
+                  Realización de animación secundaria de los personajes como
+                  pelo, ropa y accesorios. Animador de personajes en algún
+                  plano.
                 </li>
                 <li>Autodesk MAYA + Ragdoll dynamics</li>
               </ul>
@@ -130,7 +131,8 @@ function App() {
               <h2>BRIGHT. U-tad – shortfilm</h2>
               <ul>
                 <li>
-                  Animador 3d. Animación de los personajes en varios planos
+                  <strong>Animador 3d.</strong> Animación de los personajes en
+                  varios planos
                 </li>
                 <li>Autodesk MAYA</li>
               </ul>
