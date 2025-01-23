@@ -97,7 +97,7 @@ th {
 
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: white;
@@ -138,6 +138,9 @@ nav h4 a:hover {
   padding: 10px;
   border-radius: 25px;
 }
+.logo-dsal {
+  width: 70px;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -157,7 +160,7 @@ nav h4 a:hover {
   gap: 50px;
 }
 .foto img {
-  width: 200px;
+  width: 500px;
   height: 500px;
   border-radius: 50%;
   box-shadow: 0 2px 3px -1px rgba(37, 37, 58, 0.5),
@@ -328,7 +331,9 @@ nav h4 a:hover {
   .menu-toggle {
     display: block;
   }
-
+  .logo-dsal {
+    width: 35px;
+  }
   .nav-links {
     display: flex;
     flex-direction: column;

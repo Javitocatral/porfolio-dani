@@ -7,6 +7,7 @@ import descargas from './assets/descargas.png'
 import telefono from './assets/telefono.png'
 import bufalo from './assets/bufalo.jpg'
 import bright from './assets/bright.png'
+import logo from './assets/Dsal.png'
 
 function App() {
   const [gradient, setGradient] = useState(
@@ -37,22 +38,32 @@ function App() {
         style={{ background: gradient }}
       >
         <nav>
-          <div className="menu-toggle" onClick={toggleMenu}>
-            &#9776; {/* Icono de hamburguesa */}
-          </div>
-          <div className={`nav-links ${isOpen ? 'show' : ''}`}>
-            <h4>
-              <a href="#presentacion">Reel</a>
-            </h4>
-            <h4>
-              <a href="#sobremi">Sobre mí</a>
-            </h4>
-            <h4>
-              <a href="#proyectos">Proyectos</a>
-            </h4>
-            <h4>
-              <a href="#contacto">Contacto</a>
-            </h4>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              width: '100%',
+            }}
+          >
+            <img className="logo-dsal" src={logo} alt="" />
+            <div className="menu-toggle" onClick={toggleMenu}>
+              &#9776; {/* Icono de hamburguesa */}
+            </div>
+            <div className={`nav-links ${isOpen ? 'show' : ''}`}>
+              <h4>
+                <a href="#presentacion">Reel</a>
+              </h4>
+              <h4>
+                <a href="#sobremi">Sobre mí</a>
+              </h4>
+              <h4>
+                <a href="#proyectos">Proyectos</a>
+              </h4>
+              <h4>
+                <a href="#contacto">Contacto</a>
+              </h4>
+            </div>
           </div>
         </nav>
         <div className="foto">
@@ -144,11 +155,7 @@ function App() {
             Contacto
           </h2>
           <div className="contacto">
-            <a
-              className="boton boton-descargas"
-              href="cv-daniel-2025.pdf"
-              download
-            >
+            <a className="boton boton-descargas" href="CV2025Dani.pdf" download>
               <img
                 style={{ width: '20px' }}
                 src={descargas}
